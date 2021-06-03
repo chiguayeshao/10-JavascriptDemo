@@ -13,7 +13,7 @@ body {
     min-height: 100vh;
 }
 
-.heart{
+.heart {
     position: fixed;
     top: -1vh;
     font-size: 2rem;
@@ -21,8 +21,8 @@ body {
     animation: fall 3s linear forwards;
 }
 
-@keyframes fall{
-    to{
+@keyframes fall {
+    to {
         transform: translateY(105vh);
     }
 }
